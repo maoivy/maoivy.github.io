@@ -1,0 +1,24 @@
+.project-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.project-img {
+  width: 15vw;
+  margin-right: 2vw;
+  border: 1px solid red;
+}
+
+.project-title {
+  margin-top: 0.25em;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+
+/* @media screen and (max-width: 1200px) {
+  .project-img {
+    width: calc(100% / 3);
+  }
+} */

@@ -21,3 +21,8 @@
 .navbar-link + .navbar-link {
   margin-left: 1em;
 }
+
+.navbar-link-active {
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--borders);
+}
