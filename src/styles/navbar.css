@@ -1,0 +1,23 @@
+.navbar-container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-link {
+  font-size: 0.75em;
+  color: var(--links);
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  cursor: pointer;
+}
+
+.navbar-link + .navbar-link {
+  margin-left: 1em;
+}

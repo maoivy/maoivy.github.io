@@ -1,12 +1,15 @@
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 import React from "react"
 
 import "../styles/navbar.css"
 
 const Navbar = () => (
-  <navbar className="header-container">
-    <h1 style={{ margin: 0 }}>hello</h1>
+  <navbar className="navbar-container">
+    <div className="navbar-links">
+      <div className="navbar-link">projects</div>
+      <div className="navbar-link">coursework</div>
+    </div>
   </navbar>
 )
 

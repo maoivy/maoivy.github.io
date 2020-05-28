@@ -11,8 +11,8 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
       </Link>
       <div className="header-bio">
-        hello! i'm a freshman studying computer science at MIT, and i like
-        coding, music, and history.
+        hello! i'm a freshman studying computer science at MIT. i like coding,
+        music, and history.
       </div>
     </h1>
   </header>
