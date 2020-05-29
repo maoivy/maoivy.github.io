@@ -1,5 +1,6 @@
 .navbar-container {
   margin-top: 1em;
+  padding-bottom: 1em;
   display: flex;
   justify-content: space-around;
 }

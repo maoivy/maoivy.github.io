@@ -8,7 +8,9 @@
 }
 
 .header-container {
-  margin-top: 1.5em;
+  margin-top: -4em;
+  padding-top: 3em;
+  background: var(--background);
 }
 
 .header-bio {

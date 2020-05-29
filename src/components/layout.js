@@ -26,24 +26,22 @@ const Layout = ({ children, courses, viewCourses, viewProjects }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Navbar
-        courses={courses}
-        viewCourses={viewCourses}
-        viewProjects={viewProjects}
-      />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+    <div className="page-container">
+      <div className="top-container">
+        <div>
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <Navbar
+            courses={courses}
+            viewCourses={viewCourses}
+            viewProjects={viewProjects}
+          />
+        </div>
+      </div>
+      <div className="content-container">
         <main>{children}</main>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 
