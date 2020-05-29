@@ -39,15 +39,6 @@ const REREADING_DESC = (
 const ProjectBlock = () => (
   <div className="projblock-container">
     <Project
-      title="CHIP"
-      desc="a platform for small businesses to place group orders for bulk materials, allowing them to reduce supply costs"
-      image="chip"
-      demo="http://chip100.herokuapp.com/"
-      code="https://github.com/maoivy/chicken"
-      team="hui min wu & crystal wang"
-      awards={CHIP_AWARD}
-    />
-    <Project
       title="DAY.LY"
       desc="an online bullet journal, designed to make beautiful bullet journaling streamlined and easily accessible for everyone"
       image="dayly"
@@ -55,6 +46,15 @@ const ProjectBlock = () => (
       code="https://github.com/maoivy/dayly"
       team="amy lei & hui min wu"
       awards={DAYLY_AWARD}
+    />
+    <Project
+      title="CHIP"
+      desc="a platform for small businesses to place group orders for bulk materials, allowing them to reduce supply costs"
+      image="chip"
+      demo="http://chip100.herokuapp.com/"
+      code="https://github.com/maoivy/chicken"
+      team="hui min wu & crystal wang"
+      awards={CHIP_AWARD}
     />
     <Project
       title="THE READING REDUX"
