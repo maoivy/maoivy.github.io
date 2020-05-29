@@ -1,11 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 
 import ProjectBlock from "../components/projectblock"
 import Courses from "../components/courses"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 import { library } from "@fortawesome/fontawesome-svg-core"

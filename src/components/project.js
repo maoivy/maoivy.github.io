@@ -37,7 +37,7 @@ Project.propTypes = {
   demo: PropTypes.string,
   code: PropTypes.string,
   team: PropTypes.string,
-  awards: PropTypes.instanceOf(Element).isRequired,
+  awards: PropTypes.string,
 }
 
 export default Project

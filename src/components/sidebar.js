@@ -11,8 +11,8 @@ const Sidebar = ({ siteTitle }) => (
         {siteTitle}
       </Link>
       <div className="sidebar-bio">
-        hello! i'm a freshman studying computer science at MIT. i like coding,
-        music, and history.
+        hello! my name is ivy, and i'm currently a freshman studying computer
+        science at MIT. i like coding, music, and history.
       </div>
     </div>
   </div>
