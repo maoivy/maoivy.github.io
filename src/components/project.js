@@ -16,7 +16,7 @@ const THUMBNAILS = {
 
 const Project = ({ title, desc, image, demo, code, team, awards }) => (
   <div className="project-container">
-    <img className="project-img" src={THUMBNAILS[image]} />
+    <img className="project-img" alt="" src={THUMBNAILS[image]} />
     <div className="project-text">
       <div className="project-title">{title}</div>
       <div className="project-links">
