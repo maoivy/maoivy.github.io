@@ -10,6 +10,7 @@
 }
 
 .navbar-link {
+  padding: 2px 4px;
   font-size: 0.75em;
   color: var(--links);
   text-decoration: none;
@@ -24,5 +25,6 @@
 }
 
 .navbar-link-active {
-  text-decoration: underline;
+  background: var(--accent);
+  color: var(--accent-text);
 }

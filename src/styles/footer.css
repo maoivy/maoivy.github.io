@@ -23,3 +23,9 @@
 .footer-link + .footer-link {
   margin-left: 0.5em;
 }
+
+.footer-credit {
+  padding: 2px 4px;
+  background: var(--accent);
+  color: var(--accent-text);
+}

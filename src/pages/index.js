@@ -10,6 +10,7 @@ import SEO from "../components/seo"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons"
+// import { faCode } from "@fortawesome/free-solid-svg-icons"
 library.add(faLinkedin, faGithubSquare)
 
 class IndexPage extends React.Component {

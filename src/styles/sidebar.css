@@ -1,9 +1,9 @@
 .sidebar-name {
   text-decoration: none;
-  color: var(--header);
+  color: var(--headers);
   font-family: Poppins, sans-serif;
   font-size: 5em;
-  font-weight: 600;
+  font-weight: 700;
   display: flex;
   justify-content: flex-end;
 }
@@ -19,7 +19,7 @@
 }
 
 .sidebar-bio {
-  margin-top: 0.75em;
+  margin-top: 0.25em;
   color: var(--accent-text);
   font-weight: 300;
   display: flex;

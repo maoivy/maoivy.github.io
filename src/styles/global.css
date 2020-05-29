@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@700&display=swap");
 
 :root {
-  --accent: #2b2b2b;
+  --accent: #ff8f8f;
   --accent-text: #f5f5f5;
   --highlight: #8ca9e0;
   --background: #ffffff;
   --background-dark: #f0f0f0;
   --body: #5e5e5e;
   --borders: #d6d6d6;
-  --header: #ffffff;
+  --headers: #ffffff;
   --hover: #e0e0e0;
   --links: #131313;
 }
@@ -19,6 +19,7 @@ body {
   color: var(--body);
   font-family: Montserrat, sans-serif;
   font-weight: normal;
+  letter-spacing: 0.05em;
   word-wrap: break-word;
   font-kerning: normal;
   cursor: crosshair;
@@ -49,4 +50,10 @@ body {
   padding: 2vw;
   width: 46vw;
   overflow: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.content::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
