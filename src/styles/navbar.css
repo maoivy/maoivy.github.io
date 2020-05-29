@@ -1,8 +1,8 @@
 .navbar-container {
-  margin-top: 1em;
-  padding-bottom: 1em;
+  height: 5vh;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .navbar-links {
@@ -24,6 +24,5 @@
 }
 
 .navbar-link-active {
-  padding-bottom: 3px;
-  border-bottom: 1px solid var(--borders);
+  text-decoration: underline;
 }

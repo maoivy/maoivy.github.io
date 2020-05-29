@@ -1,0 +1,28 @@
+.sidebar-name {
+  text-decoration: none;
+  color: var(--header);
+  font-family: Poppins;
+  font-size: 5em;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar-container {
+  padding: 2vw;
+  width: 26vw;
+  overflow: hidden;
+  background: var(--accent);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.sidebar-bio {
+  margin-top: 0.75em;
+  color: var(--accent-text);
+  font-weight: 300;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+}

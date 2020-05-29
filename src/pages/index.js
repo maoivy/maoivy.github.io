@@ -36,9 +36,7 @@ class IndexPage extends React.Component {
         viewProjects={this.viewProjects}
       >
         <SEO title="home" />
-        <div className="body-container">
-          {this.state.courses ? <Courses /> : <ProjectBlock />}
-        </div>
+        {this.state.courses ? <Courses /> : <ProjectBlock />}
       </Layout>
     )
   }

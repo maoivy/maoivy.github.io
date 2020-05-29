@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import Sidebar from "./sidebar"
 import Navbar from "./navbar"
 import Footer from "./footer"
 import "../styles/global.css"
@@ -26,21 +26,19 @@ const Layout = ({ children, courses, viewCourses, viewProjects }) => {
   `)
 
   return (
-    <div className="page-container">
-      <div className="top-container">
-        <div>
-          <Header siteTitle={data.site.siteMetadata.title} />
-          <Navbar
-            courses={courses}
-            viewCourses={viewCourses}
-            viewProjects={viewProjects}
-          />
+    <div className="page">
+      <div className="window-container">
+        <Navbar
+          courses={courses}
+          viewCourses={viewCourses}
+          viewProjects={viewProjects}
+        />
+        <div className="window">
+          <Sidebar siteTitle={data.site.siteMetadata.title} />
+          <main className="content">{children}</main>
         </div>
+        <Footer />
       </div>
-      <div className="content-container">
-        <main>{children}</main>
-      </div>
-      <Footer />
     </div>
   )
 }
