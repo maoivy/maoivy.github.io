@@ -7,7 +7,9 @@ import "../styles/projectblock.css"
 const DAYLY_AWARD = (
   <p className="project-award">
     third prize winner in the
-    <a href="http://weblab.mit.edu/winners/">MIT web programming competition</a>
+    <a href="http://weblab.mit.edu/winners/">
+      2020 MIT web programming competition
+    </a>
   </p>
 )
 
