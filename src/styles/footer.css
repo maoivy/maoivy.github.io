@@ -16,7 +16,7 @@
 
 .footer-link {
   font-size: 2.5em;
-  color: var(--links);
+  color: var(--accent);
   text-decoration: none;
 }
 

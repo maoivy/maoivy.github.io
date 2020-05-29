@@ -32,6 +32,9 @@
   /* justify-content: flex-end; */
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
+  word-wrap: break-word;
+  overflow: hidden;
+  font-size: 1vw;
 }
 
 .project-text:hover {
@@ -69,8 +72,21 @@
   margin-top: 1em;
 }
 
-/* @media screen and (max-width: 1200px) {
-  .project-img {
-    width: calc(100% / 3);
+@media only screen and (max-width: 1200px) {
+  .project-text {
+    font-size: 1.25vw;
   }
-} */
+}
+
+@media only screen and (max-width: 767px) {
+  .project-img {
+    width: 80vw;
+    margin: 0 -1px;
+  }
+
+  .project-text {
+    width: calc(76vw - 2px);
+    margin-left: -1px;
+    font-size: 2vw;
+  }
+}

@@ -12,6 +12,8 @@
   display: flex;
   margin-top: 2px;
   justify-content: space-between;
+  text-align: right;
+  word-wrap: break-word;
 }
 
 .class-num {
@@ -22,4 +24,16 @@
 
 .coding {
   background: var(--highlight);
+}
+
+@media only screen and (max-width: 1250px) {
+  .class {
+    font-size: 1.2vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .class {
+    font-size: 2.5vw;
+  }
 }

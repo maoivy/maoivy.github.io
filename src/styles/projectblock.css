@@ -7,3 +7,9 @@
   margin-left: 0.3em;
   color: var(--links);
 }
+
+@media only screen and (max-width: 767px) {
+  .projblock-container {
+    margin: 0vw;
+  }
+}
