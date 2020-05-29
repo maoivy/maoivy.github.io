@@ -38,13 +38,6 @@ const REREADING_DESC = (
 const ProjectBlock = () => (
   <div className="projblock-container">
     <Project
-      title="A SONG OF TIN AND FOIL"
-      desc={AZORAHAI_DESC}
-      image="azorahai"
-      demo="http://azorahai.herokuapp.com/"
-      code="https://github.com/maoivy/azorahai"
-    />
-    <Project
       title="CHIP"
       desc="a platform for small businesses to place group orders for bulk materials, allowing them to reduce supply costs"
       image="chip"
@@ -70,6 +63,13 @@ const ProjectBlock = () => (
       code="https://github.com/dhmit/rereading"
       team="the MIT digital humanities lab"
       awards=""
+    />
+    <Project
+      title="A SONG OF TIN AND FOIL"
+      desc={AZORAHAI_DESC}
+      image="azorahai"
+      demo="http://azorahai.herokuapp.com/"
+      code="https://github.com/maoivy/azorahai"
     />
   </div>
 )
