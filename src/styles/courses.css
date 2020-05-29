@@ -1,0 +1,25 @@
+.semester {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.classes {
+  margin-bottom: 2em;
+}
+
+.class {
+  display: flex;
+  margin-top: 2px;
+  justify-content: space-between;
+}
+
+.class-num {
+  background: var(--accent);
+  color: var(--accent-text);
+  padding: 2px 4px;
+}
+
+.coding {
+  background: var(--highlight);
+}
