@@ -57,6 +57,13 @@ const ProjectBlock = () => (
       awards={CHIP_AWARD}
     />
     <Project
+      title="A SONG OF TIN AND FOIL"
+      desc={AZORAHAI_DESC}
+      image="azorahai"
+      demo="http://azorahai.herokuapp.com/"
+      code="https://github.com/maoivy/azorahai"
+    />
+    <Project
       title="THE READING REDUX"
       desc={REREADING_DESC}
       image="rereading"
@@ -64,13 +71,6 @@ const ProjectBlock = () => (
       code="https://github.com/dhmit/rereading"
       team="the MIT digital humanities lab"
       awards=""
-    />
-    <Project
-      title="A SONG OF TIN AND FOIL"
-      desc={AZORAHAI_DESC}
-      image="azorahai"
-      demo="http://azorahai.herokuapp.com/"
-      code="https://github.com/maoivy/azorahai"
     />
   </div>
 )
