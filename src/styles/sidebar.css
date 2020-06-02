@@ -6,15 +6,17 @@
   font-weight: 700;
   display: flex;
   justify-content: flex-end;
+  max-width: 26vw;
 }
 
 .sidebar-container {
   padding: 2vw;
-  width: 26vw;
+  /* width: 26vw; */
   overflow: hidden;
   background: var(--accent);
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
   flex-direction: column;
 }
 
@@ -25,6 +27,7 @@
   display: flex;
   text-align: right;
   justify-content: flex-end;
+  max-width: 26vw;
 }
 
 @media screen and (max-width: 767px) {
@@ -35,5 +38,9 @@
   .sidebar-container {
     width: 76vw;
     height: 20vh;
+  }
+
+  .sidebar-bio {
+    max-width: 76vw;
   }
 }

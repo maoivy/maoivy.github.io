@@ -2,10 +2,10 @@
 import React from "react"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import "../styles/footer.css"
+import "../styles/global.css"
 
 const Footer = () => (
-  <footer className="footer-container">
+  <footer className="footer-container transition--fadeinlate">
     <div className="footer-links">
       <a href="https://github.com/maoivy" className="footer-link">
         <FontAwesomeIcon icon={["fab", "github-square"]} />

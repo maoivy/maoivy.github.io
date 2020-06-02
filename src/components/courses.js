@@ -1,9 +1,9 @@
 import React from "react"
 
-import "../styles/courses.css"
+import "../styles/global.css"
 
 const Courses = () => (
-  <div className="courses-container">
+  <div className="courses-container transition transition--fadein">
     <div className="semester">spring 2020</div>
     <div className="classes">
       <div className="class">

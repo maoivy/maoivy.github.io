@@ -35,7 +35,7 @@ const Layout = ({ children, courses, viewCourses, viewProjects }) => {
         />
         <div className="window">
           <Sidebar siteTitle={data.site.siteMetadata.title} />
-          <main className="content">{children}</main>
+          <main className="content transition--contentslide">{children}</main>
         </div>
         <Footer />
       </div>

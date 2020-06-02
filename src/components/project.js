@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import "../styles/project.css"
+import "../styles/global.css"
 import chip from "../images/chip.png"
 import dayly from "../images/daylydark.png"
 import rereading from "../images/rereading.png"

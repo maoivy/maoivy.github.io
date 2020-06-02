@@ -1,7 +1,7 @@
 import React from "react"
 
 import Project from "./project"
-import "../styles/projectblock.css"
+import "../styles/global.css"
 
 const DAYLY_AWARD = (
   <p className="project-award">
@@ -37,7 +37,7 @@ const REREADING_DESC = (
 )
 
 const ProjectBlock = () => (
-  <div className="projblock-container">
+  <div className="projblock-container transition transition--fadein">
     <Project
       title="DAY.LY"
       desc="an online bullet journal, designed to make beautiful bullet journaling streamlined and easily accessible for everyone"

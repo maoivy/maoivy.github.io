@@ -6,6 +6,8 @@ import ProjectBlock from "../components/projectblock"
 import Courses from "../components/courses"
 import SEO from "../components/seo"
 
+import "../styles/global.css"
+
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons"
 // import { faCode } from "@fortawesome/free-solid-svg-icons"
@@ -28,6 +30,12 @@ class IndexPage extends React.Component {
   }
 
   render() {
+    let courseClassName = "page-hidden transition--fadein"
+    let projectClassName = "page-active transition--fadein"
+    if (this.state.courses) {
+      courseClassName = "page-active transition--fadein"
+      projectClassName = "page-hidden transition--fadein"
+    }
     return (
       <Layout
         courses={this.state.courses}
@@ -35,7 +43,17 @@ class IndexPage extends React.Component {
         viewProjects={this.viewProjects}
       >
         <SEO title="home" />
-        {this.state.courses ? <Courses /> : <ProjectBlock />}
+        {/* {this.state.courses ? (
+          <Courses className={courseClassName} />
+        ) : (
+          <ProjectBlock className={projectClassName} />
+        )} */}
+        <div className={courseClassName}>
+          <Courses />
+        </div>
+        <div className={projectClassName}>
+          <ProjectBlock />
+        </div>
       </Layout>
     )
   }

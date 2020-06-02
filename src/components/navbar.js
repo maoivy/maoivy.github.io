@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 
 import React from "react"
 
-import "../styles/navbar.css"
+import "../styles/global.css"
 
 const Navbar = ({ courses, viewCourses, viewProjects }) => {
   let projectClass = "navbar-link"
@@ -13,7 +13,7 @@ const Navbar = ({ courses, viewCourses, viewProjects }) => {
     projectClass = "navbar-link navbar-link-active"
   }
   return (
-    <div className="navbar-container">
+    <div className="navbar-container transition--fadeinlate">
       <div className="navbar-links">
         <div className={projectClass} onClick={() => viewProjects()}>
           projects

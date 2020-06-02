@@ -2,18 +2,16 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import "../styles/sidebar.css"
+import "../styles/global.css"
 
 const Sidebar = ({ siteTitle }) => (
-  <div className="sidebar-container">
-    <div>
-      <Link to="/" className="sidebar-name">
-        {siteTitle}
-      </Link>
-      <div className="sidebar-bio">
-        hello! my name is ivy, and i'm currently a freshman studying computer
-        science at MIT. i like coding, music, and history.
-      </div>
+  <div className="sidebar-container transition--sidebarslide">
+    <Link to="/" className="sidebar-name">
+      {siteTitle}
+    </Link>
+    <div className="sidebar-bio">
+      hello! my name is ivy, and i'm currently a freshman studying computer
+      science at MIT. i like coding, music, and history.
     </div>
   </div>
 )
