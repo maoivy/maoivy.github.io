@@ -4,6 +4,38 @@ import "../styles/global.css"
 
 const Courses = () => (
   <div className="courses-container transition transition--fadein">
+    <div className="semester">fall 2020</div>
+    <div className="classes">
+      <div className="class">
+        <div className="class-num coding">6.031</div>
+        elements of software construction
+      </div>
+      <div className="class">
+        <div className="class-num coding">6.046</div>
+        design and analysis of algorithms
+      </div>
+      <div className="class">
+        <div className="class-num coding">6.036</div>
+        introduction to machine learning
+      </div>
+      <div className="class">
+        <div className="class-num">24.917</div>
+        conlangs: constructing a language
+      </div>
+      <div className="class">
+        <div className="class-num coding">UROP</div>
+        MIT sloan school of management
+      </div>
+    </div>
+
+    <div className="semester">summer 2020</div>
+    <div className="classes">
+      <div className="class">
+        <div className="class-num coding">UROP</div>
+        MIT sloan school of management
+      </div>
+    </div>
+
     <div className="semester">spring 2020</div>
     <div className="classes">
       <div className="class">
@@ -21,6 +53,10 @@ const Courses = () => (
       <div className="class">
         <div className="class-num">21M.301</div>
         harmony and counterpoint
+      </div>
+      <div className="class">
+        <div className="class-num coding">UROP</div>
+        MIT digital humanities lab
       </div>
     </div>
 
@@ -49,6 +85,10 @@ const Courses = () => (
       <div className="class">
         <div className="class-num">24.900</div>
         introduction to linguistics
+      </div>
+      <div className="class">
+        <div className="class-num coding">UROP</div>
+        MIT digital humanities lab
       </div>
     </div>
   </div>
