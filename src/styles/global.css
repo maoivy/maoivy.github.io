@@ -175,6 +175,10 @@ body {
     width: 80vw;
     overflow: visible;
   }
+
+  .resume {
+    max-width: 80vw !important;
+  }
 }
 
 /* SIDEBAR */
