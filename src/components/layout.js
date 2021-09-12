@@ -14,7 +14,7 @@ import Navbar from "./navbar"
 import Footer from "./footer"
 import "../styles/global.css"
 
-const Layout = ({ children, courses, viewCourses, viewProjects }) => {
+const Layout = ({ children, page, viewPage }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -29,9 +29,8 @@ const Layout = ({ children, courses, viewCourses, viewProjects }) => {
     <div className="page">
       <div className="window-container">
         <Navbar
-          courses={courses}
-          viewCourses={viewCourses}
-          viewProjects={viewProjects}
+          page={page}
+          viewPage={viewPage}
         />
         <div className="window">
           <Sidebar siteTitle={data.site.siteMetadata.title} />
@@ -45,9 +44,8 @@ const Layout = ({ children, courses, viewCourses, viewProjects }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  courses: PropTypes.bool,
-  viewCourses: PropTypes.func,
-  viewProjects: PropTypes.func,
+  page: PropTypes.string,
+  viewPage: PropTypes.func,
 }
 
 export default Layout

@@ -4,22 +4,18 @@ import React from "react"
 
 import "../styles/global.css"
 
-const Navbar = ({ courses, viewCourses, viewProjects }) => {
-  let projectClass = "navbar-link"
-  let courseClass = "navbar-link"
-  if (courses) {
-    courseClass = "navbar-link navbar-link-active"
-  } else {
-    projectClass = "navbar-link navbar-link-active"
-  }
+const Navbar = ({ page, viewPage }) => {
   return (
     <div className="navbar-container transition--fadeinlate">
       <div className="navbar-links">
-        <div className={projectClass} onClick={() => viewProjects()}>
+        <div className={`navbar-link ${page === "projects" && "navbar-link-active"}`} onClick={() => viewPage("projects")}>
           projects
         </div>
-        <div className={courseClass} onClick={() => viewCourses()}>
+        <div className={`navbar-link ${page === "courses" && "navbar-link-active"}`} onClick={() => viewPage("courses")}>
           coursework
+        </div>
+        <div className={`navbar-link ${page === "resume" && "navbar-link-active"}`} onClick={() => viewPage("resume")}>
+          resume
         </div>
       </div>
     </div>
@@ -27,9 +23,8 @@ const Navbar = ({ courses, viewCourses, viewProjects }) => {
 }
 
 Navbar.propTypes = {
-  courses: PropTypes.bool,
-  viewCourses: PropTypes.func,
-  viewProjects: PropTypes.func,
+  page: PropTypes.string,
+  viewPage: PropTypes.func,
 }
 
 export default Navbar

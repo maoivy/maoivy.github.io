@@ -293,6 +293,7 @@ body {
 
 .footer-links {
   display: flex;
+  align-items: center;
 }
 
 .footer-link {
@@ -355,7 +356,19 @@ body {
   }
 }
 
+/* RESUME */
+
+.resume {
+  max-width: 48vw;
+  margin-top: -2vw;
+  margin-bottom: -2vw;
+}
+
 /* COURSES */
+
+.courses-container {
+  margin: -1vw -2vw -1vw 0vw;
+}
 
 .semester {
   font-style: italic;

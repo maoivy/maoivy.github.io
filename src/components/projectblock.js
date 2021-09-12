@@ -40,7 +40,7 @@ const ProjectBlock = () => (
   <div className="projblock-container transition transition--fadein">
     <Project
       title="DAY.LY"
-      desc="an online bullet journal, designed to make beautiful bullet journaling streamlined and easily accessible for everyone"
+      desc={<p>an online bullet journal, designed to make beautiful bullet journaling streamlined and easily accessible for everyone</p>}
       image="dayly"
       demo="http://day-ly.herokuapp.com/"
       code="https://github.com/maoivy/dayly"
@@ -49,7 +49,7 @@ const ProjectBlock = () => (
     />
     <Project
       title="CHIP"
-      desc="a platform for small businesses to place group orders for bulk materials, allowing them to reduce supply costs"
+      desc={<p>a platform for small businesses to place group orders for bulk materials, allowing them to reduce supply costs</p>}
       image="chip"
       demo="http://chip100.herokuapp.com/"
       code="https://github.com/maoivy/chicken"
@@ -70,7 +70,6 @@ const ProjectBlock = () => (
       demo="https://rereading.dhmit.xyz/"
       code="https://github.com/dhmit/rereading"
       team="the MIT digital humanities lab"
-      awards=""
     />
   </div>
 )

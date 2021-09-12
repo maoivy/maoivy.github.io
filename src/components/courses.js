@@ -4,12 +4,80 @@ import "../styles/global.css"
 
 const Courses = () => (
   <div className="courses-container transition transition--fadein">
-    <div className="semester">fall 2020</div>
+    <div className="semester">fall 2021</div>
+    <div className="classes">
+      <div className="class">
+        <div className="class-num coding">6.172</div>
+        software performance engineering
+      </div>
+      <div className="class">
+        <div className="class-num">18.600</div>
+        probability and random variables
+      </div>
+      <div className="class">
+        <div className="class-num">14.30</div>
+        intro to statistical methods in economics
+      </div>
+      <div className="class">
+        <div className="class-num">14.02</div>
+        principles of macroeconomics
+      </div>
+      <div className="class">
+        <div className="class-num">3.091</div>
+        intro to solid-state chemistry
+      </div>
+      <div className="class">
+        <div className="class-num">7.012</div>
+        introductory biology
+      </div>
+    </div>
+
+    <div className="semester">summer 2021</div>
+    <div className="classes">
+      <div className="class">
+        <div className="class-num coding">work</div>
+        virtu financial – quant trading intern
+      </div>
+    </div>
+
+    <div className="semester">spring 2021</div>
     <div className="classes">
       <div className="class">
         <div className="class-num coding">6.031</div>
         elements of software construction
       </div>
+      <div className="class">
+        <div className="class-num coding">6.004</div>
+        computation structures
+      </div>
+      <div className="class">
+        <div className="class-num coding">6.UAT</div>
+        oral communication
+      </div>
+      <div className="class">
+        <div className="class-num">9.00</div>
+        intro to psychological science
+      </div>
+      <div className="class">
+        <div className="class-num">14.01</div>
+        principles of microeconomics
+      </div>
+    </div>
+
+    <div className="semester">iap 2021</div>
+    <div className="classes">
+      <div className="class">
+        <div className="class-num coding">work</div>
+        ladder — SWE intern
+      </div>
+      <div className="class">
+        <div className="class-num coding">work</div>
+        virtu financial – women's winternship
+      </div>
+    </div>
+
+    <div className="semester">fall 2020</div>
+    <div className="classes">
       <div className="class">
         <div className="class-num coding">6.046</div>
         design and analysis of algorithms

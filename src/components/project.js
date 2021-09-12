@@ -32,12 +32,12 @@ const Project = ({ title, desc, image, demo, code, team, awards }) => (
 
 Project.propTypes = {
   title: PropTypes.string,
-  desc: PropTypes.string,
+  desc: PropTypes.object,
   image: PropTypes.string,
   demo: PropTypes.string,
   code: PropTypes.string,
   team: PropTypes.string,
-  awards: PropTypes.string,
+  awards: PropTypes.object,
 }
 
 export default Project
