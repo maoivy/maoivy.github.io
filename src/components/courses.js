@@ -4,12 +4,44 @@ import "../styles/global.css"
 
 const Courses = () => (
   <div className="courses-container transition transition--fadein">
-    <div className="semester">fall 2021</div>
+    <div className="semester">spring 2022</div>
     <div className="classes">
       <div className="class">
-        <div className="class-num coding">6.172</div>
-        software performance engineering
+        <div className="class-num coding">6.033</div>
+        computer systems engineering
       </div>
+      <div className="class">
+        <div className="class-num coding">6.S063</div>
+        design for the web
+      </div>
+      <div className="class">
+        <div className="class-num">14.13</div>
+        psychology and economics
+      </div>
+      <div className="class">
+        <div className="class-num">21M.065</div>
+        introduction to musical composition
+      </div>
+      <div className="class">
+        <div className="class-num">18.06</div>
+        linear algebra
+      </div>
+      <div className="class">
+        <div className="class-num coding">work</div>
+        skale education — SWE intern
+      </div>
+    </div>
+
+    <div className="semester">iap/winter 2022</div>
+    <div className="classes">
+      <div className="class">
+        <div className="class-num coding">work</div>
+        skale education — SWE intern
+      </div>
+    </div>
+
+    <div className="semester">fall 2021</div>
+    <div className="classes">
       <div className="class">
         <div className="class-num">18.600</div>
         probability and random variables
@@ -64,7 +96,7 @@ const Courses = () => (
       </div>
     </div>
 
-    <div className="semester">iap 2021</div>
+    <div className="semester">iap/winter 2021</div>
     <div className="classes">
       <div className="class">
         <div className="class-num coding">work</div>
@@ -128,7 +160,7 @@ const Courses = () => (
       </div>
     </div>
 
-    <div className="semester">iap 2020</div>
+    <div className="semester">iap/winter 2020</div>
     <div className="classes">
       <div className="class">
         <div className="class-num coding">6.148</div>
