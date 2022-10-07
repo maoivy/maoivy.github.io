@@ -4,6 +4,34 @@ import "../styles/global.css"
 
 const Courses = () => (
   <div className="courses-container transition transition--fadein">
+    <div className="semester">fall 2022</div>
+    <div className="classes">
+      <div className="class">
+        <div className="class-num coding">18.404</div>
+        theory of computation
+      </div>
+      <div className="class">
+        <div className="class-num coding">6.1040</div>
+        software studio
+      </div>
+      <div className="class">
+        <div className="class-num">21M.302</div>
+        harmony and counterpoint ii
+      </div>
+      <div className="class">
+        <div className="class-num">21L.002</div>
+        western literature
+      </div>
+    </div>
+
+    <div className="semester">summer 2022</div>
+    <div className="classes">
+      <div className="class">
+        <div className="class-num coding">work</div>
+        aqr capital management – trading intern
+      </div>
+    </div>
+
     <div className="semester">spring 2022</div>
     <div className="classes">
       <div className="class">
@@ -28,7 +56,7 @@ const Courses = () => (
       </div>
       <div className="class">
         <div className="class-num coding">work</div>
-        skale education — SWE intern
+        upduo — SWE intern
       </div>
     </div>
 
@@ -133,6 +161,10 @@ const Courses = () => (
       <div className="class">
         <div className="class-num coding">UROP</div>
         MIT sloan school of management
+      </div>
+      <div className="class">
+        <div className="class-num coding">work</div>
+        nova — SWE intern
       </div>
     </div>
 

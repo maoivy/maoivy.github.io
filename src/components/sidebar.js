@@ -10,8 +10,8 @@ const Sidebar = ({ siteTitle }) => (
       {siteTitle}
     </Link>
     <div className="sidebar-bio">
-      hello! my name is ivy, and i'm currently a junior studying computer
-      science at MIT. i like coding, music, and history.
+      hello! my name is ivy, and i'm currently a senior at MIT majoring in computer science and minoring in econ and math. 
+      i like coding, music, and history.
     </div>
   </div>
 )
