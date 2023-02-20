@@ -4,6 +4,38 @@ import "../styles/global.css"
 
 const Courses = () => (
   <div className="courses-container transition transition--fadein">
+    <div className="semester">spring 2023</div>
+    <div className="classes">
+      <div className="class">
+        <div className="class-num coding">6.858</div>
+        computer systems security
+      </div>
+      <div className="class">
+        <div className="class-num">14.16</div>
+        strategy and information
+      </div>
+      <div className="class">
+        <div className="class-num">14.03</div>
+        microeconomic theory and public policy
+      </div>
+      <div className="class">
+        <div className="class-num">18.650</div>
+        fundamentals of statistics
+      </div>
+      <div className="class">
+        <div className="class-num">18.650</div>
+        fundamentals of statistics
+      </div>
+      <div className="class">
+        <div className="class-num coding">6.042</div>
+        mathematics for computer science (TA)
+      </div>
+      <div className="class">
+        <div className="class-num coding">6.s063</div>
+        design for the web (LA)
+      </div>
+    </div>
+
     <div className="semester">fall 2022</div>
     <div className="classes">
       <div className="class">
